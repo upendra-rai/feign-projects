@@ -5,28 +5,23 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.upendra.api.feign.api.FeignUtil;
+import com.upendra.api.feign.api.User1FeignController;
 
 @RestController
 @RequestMapping("/feignService")
 public class ConsumerController {
 
 	@Autowired
-	private FeignUtil feignUtil;
+	private User1FeignController user1FeignController;
 
-	@GetMapping("/f-name")
+	@GetMapping("/f1-name")
 	public String getName() {
-		return feignUtil.getName();
+		return user1FeignController.getName();
 	}
 
-	@GetMapping("/f-address")
+	@GetMapping("/f1-address")
 	public String getAddress() {
-		return feignUtil.getAddress();
-	}
-
-	@GetMapping("/f-status")
-	public String getStatus() {
-		return feignUtil.getStatus();
+		return user1FeignController.getAddress();
 	}
 
 }

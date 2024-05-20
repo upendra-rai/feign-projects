@@ -1,0 +1,178 @@
+{
+	"info": {
+		"_postman_id": "45ad4c24-c044-4d44-affc-3a73d4cdb862",
+		"name": "Feign Project Api Collections",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18314938",
+		"_collection_link": "https://luckyrai273302.postman.co/workspace/My-Workspace~49bfb7d0-9794-4720-80cf-d2578aa569d3/collection/18314938-45ad4c24-c044-4d44-affc-3a73d4cdb862?action=share&source=collection_link&creator=18314938"
+	},
+	"item": [
+		{
+			"name": "Feign Client Project",
+			"item": [
+				{
+					"name": "Project 1 Api Collection",
+					"item": [
+						{
+							"name": "Get Name Project-api",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8081/user-project1/name",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"user-project1",
+										"name"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Address Project-api Copy",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8081/user-project1/address",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"user-project1",
+										"address"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get Contact Feign api",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8081/user-project1/f2-contact",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"user-project1",
+										"f2-contact"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Status Feign api",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8081/user-project1/f2-status",
+									"host": [
+										"localhost"
+									],
+									"port": "8081",
+									"path": [
+										"user-project1",
+										"f2-status"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Project 2 Api Collection",
+					"item": [
+						{
+							"name": "Get Contact Project-api",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8082/user-project2/contact",
+									"host": [
+										"localhost"
+									],
+									"port": "8082",
+									"path": [
+										"user-project2",
+										"contact"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Status Project-api Copy",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8082/user-project2/status",
+									"host": [
+										"localhost"
+									],
+									"port": "8082",
+									"path": [
+										"user-project2",
+										"status"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "get Name Feign api",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8082/feignService/f1-name",
+									"host": [
+										"localhost"
+									],
+									"port": "8082",
+									"path": [
+										"feignService",
+										"f1-name"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Address Feign api",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "localhost:8082/feignService/f1-address",
+									"host": [
+										"localhost"
+									],
+									"port": "8082",
+									"path": [
+										"feignService",
+										"f1-address"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

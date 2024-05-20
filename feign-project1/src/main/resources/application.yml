@@ -3,3 +3,6 @@ server:
 spring:
   application:
     name: feign-project1
+project2-api:
+    feign:
+      url: http://localhost:8082/user-project2 

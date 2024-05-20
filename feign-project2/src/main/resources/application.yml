@@ -5,4 +5,4 @@ spring:
     name: feign-project2
 project1-api:
     feign:
-      url: http://localhost:8081/user   
+      url: http://localhost:8081/user-project1
