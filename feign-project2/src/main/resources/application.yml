@@ -1,0 +1,8 @@
+server: 
+   port: 8082
+spring:
+  application:
+    name: feign-project2
+project1-api:
+    feign:
+      url: http://localhost:8081/user   
